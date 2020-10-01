@@ -5,6 +5,9 @@ html {
     max-width: 1000px;
     margin:0 auto;
 }
+hi {
+    text-shadow: linear-gradient(to right, lightblue , white);
+}
 main {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
