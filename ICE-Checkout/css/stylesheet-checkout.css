@@ -1,6 +1,27 @@
 body {
-    display: block;
+    display: grid;
+    max-width: 500px;
+    margin: 0 auto;
+    grid-template-columns: 2fr 1fr;
     box-shadow: 10px 10px 5px grey;
 }
-
+img {
+    grid-column: 1/-1;
+}
+.payment_details {
+    grid-row: 2/3;
+}
+.total {
+    background-color: white;
+    color: #1c6ce5;
+}
+.price1, .price2, .price3 {
+    float: right;
+} 
 /*blue color #1c6ce5*/
+p {
+    font-weight: bold;
+}
+.cart {
+    color: #1c6ce5;
+}
