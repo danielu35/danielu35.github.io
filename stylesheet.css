@@ -47,3 +47,10 @@ footer p.highlight {
     font-size: 8em;
     margin-top: 0;
 }
+.banner {
+    background-color: seagreen;
+    text-align: center;
+    padding-bottom: 20px;
+    margin-bottom: 30px;
+    background-image: linear-gradient(to bottom right,seagreen, white);
+}
