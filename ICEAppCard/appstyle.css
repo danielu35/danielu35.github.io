@@ -1,0 +1,41 @@
+#main {
+background-image: rgb(2,0,36);
+background-image: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 35%, rgba(0,212,255,1) 100%) url(images/Main.jpg);
+position: relative;
+top: 0;
+left: 0;
+}
+.one {
+    position: absolute;
+    bottom: -650px;
+    left: 40px;
+}
+
+.two {
+    position: absolute;
+    bottom: -650px;
+    left: 575px;
+}
+
+.three {
+    position: absolute;
+    bottom: -650px;
+    left: 395px;
+}
+
+.four {
+    position: absolute;
+    bottom: -650px;
+    left: 215px;
+}
+.david {
+    position: absolute;
+    bottom: -200px;
+    left: 40px;
+    
+}
+.details {
+    position: absolute;
+    bottom: -250px;
+    left: 40px;
+}
