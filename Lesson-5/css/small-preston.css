@@ -15,7 +15,7 @@ header {
     align-items: center;
     justify-content: center;
 }
-img {
+.logo {
     height: 100px;
     width: 100px;
     border-radius: 50px;
@@ -64,3 +64,22 @@ footer {
     display: table;
     clear: both;
   }
+  .hero {
+      width: 78%;
+      display: block;
+      margin-left: auto;
+      margin-right: auto;
+  }
+  .heroDiv {
+	margin: 10px auto;
+	position: relative;
+}
+h2, p {
+    margin: 0;
+    padding-left: .5rem;
+}
+.summery {
+    position: absolute;
+    top: 4rem;
+    left: 10rem;
+}
