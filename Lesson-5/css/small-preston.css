@@ -69,17 +69,28 @@ footer {
       display: block;
       margin-left: auto;
       margin-right: auto;
+      border-radius: 5px;
   }
   .heroDiv {
 	margin: 10px auto;
-	position: relative;
-}
-h2, p {
-    margin: 0;
-    padding-left: .5rem;
+    position: relative;
 }
 .summery {
     position: absolute;
     top: 4rem;
     left: 10rem;
+    background: radial-gradient(#eee, skyblue);
+    padding: 1rem;
+    opacity: 0.7;
+    border-radius: 10px;
+}
+.summery:hover {
+    opacity: 1.0;
+  }
+h2, p {
+    margin: 0;
+    padding-left: .5rem;
+}
+.preston-title{
+    text-align: center;
 }

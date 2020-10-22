@@ -30,5 +30,32 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#87e0fd', end
    ul {
         text-align: center;
     }
+    .hero {
+        width: 78%;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        border-radius: 5px;
+    }
+    .heroDiv {
+      margin: 10px auto;
+      position: relative;
+  }
+  .summery {
+      position: absolute;
+      top: 4rem;
+      left: 10rem;
+      background: radial-gradient(#eee, skyblue);
+      padding: 1rem;
+      opacity: 0.5;
+      border-radius: 10px;
+  }
+  .summery:hover {
+      opacity: 1.0;
+    }
+  h2, p {
+      margin: 0;
+      padding-left: .5rem;
+  }
 
 } /*end medium */
