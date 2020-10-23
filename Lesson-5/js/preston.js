@@ -8,4 +8,10 @@ window.addEventListener('load', (event) =>{
 
     const cry = document.querySelector('#copyrightyear');
     cry.textContent = new Date().getFullYear();
+
+    const b = document.querySelector("#banner");
+    today = new Date().getDay();
+    if(today==5){
+        b.style.display = "block";
+    }
 })

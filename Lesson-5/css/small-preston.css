@@ -4,6 +4,21 @@ html {-webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%;}
 /*----------- apply a natural box layout model to all elements --------------*/
 * { -moz-box-sizing: border-box; -webkit-box-sizing: border-box; box-sizing: border-box; }
 
+#banner{
+    text-align: center;
+    background-color: #0668e9;
+    padding: 20px 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color:#f1e750;
+    border-radius: 10px;
+  }
+  #banner:hover{
+    background-color: #D98C5F;
+    color:#516073;
+  }
+  .hidden{
+    display:none;
+  }
 body {
     padding: 0;
     margin: 0;
@@ -94,3 +109,36 @@ h2, p {
 .preston-title{
     text-align: center;
 }
+.fiveday {
+    display: block;
+    margin: 10px auto;
+    padding: 15px;
+    box-shadow: 3px 3px 10px #88888879;
+  }
+  .five-day-wrapper {
+    background-color: #303132;
+  }
+  .five-day-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    text-align: center;
+    padding: 20px;
+    box-shadow: 3px 3px 10px #88888879;
+    background-color: #19c3da;
+    color: white;
+    column-gap: 1px;
+  }
+  .day {
+    border: 1px solid#1767d1;
+    padding: .7rem;
+  }
+  .article {
+    margin: 10px auto;
+    padding: 15px;
+    box-shadow: 3px 3px 10px #88888879;
+    width: 100%;
+  }
+  
+  .pedro {
+    width: 100%;
+  }
