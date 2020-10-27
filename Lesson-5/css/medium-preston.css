@@ -1,5 +1,5 @@
 /* 35em is also 560px when basefont is 16px */
-@media only screen and (min-width: 35rem) {
+@media only screen and (min-width: 708px) {
 
     nav {
         /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#87e0fd+0,53cbf1+40,05abe0+100;Blue+3D+%23+16 */
@@ -20,7 +20,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#87e0fd', end
         margin-left: 2%;
     }
     nav ul li {
-    float: left;
+    display: inline-flex;
     }
     nav ul li a {
         border: none;
