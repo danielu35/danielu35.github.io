@@ -1,0 +1,30 @@
+/* 64em is also 1028px when basefont is 16px */
+@media only screen and (min-width: 1000px) {
+    body {
+        max-width: 1000px;
+        margin: 0 auto;
+    }
+    nav ul li a {
+        padding: .6rem 1rem;
+    }
+    .hero-overlay-1000{
+        display: block;
+        position: absolute;
+        /* Position the background text */
+        bottom:0;
+        right:120px;
+        /* At the bottom. Use top:0 to append it to the top */
+        color: #f1f1f1;
+        /* Grey text */
+        padding: 20px;
+        /* Some padding */
+        max-width: 100%;
+        text-align: right;
+      }
+      .hero-overlay-300{
+        display:none;
+      }
+      .hero-overlay-700{
+        display:none;
+      }
+} /*end large */

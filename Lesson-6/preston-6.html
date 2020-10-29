@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1">    
+    <title>Preston Weather</title>
+
+    <!--This is where the links to css goes-->
+    <link rel = 'stylesheet' href = 'css/normalize.css'>
+    <link rel = 'stylesheet' href = 'css/small-preston.css'>
+    <link rel = 'stylesheet' href = 'css/medium-preston.css'>
+    <link rel = 'stylesheet' href = 'css/large-preston.css'>
+    <link rel = 'shortcut icon' href = 'images/logo2.jpeg'>
+    <script src = 'js/preston.js'></script>
+    <script src = 'js/windchill.js'></script>
+</head>
+<body>
+    <div id="banner" class="hidden">Preston Pancakes in the Park! 9:00 a.m. Saturday at the city pavilion. </div> 
+  <br>
+    <header>
+        <img class = 'logo' src = 'images/logo2.jpeg' atl = 'Logo'>
+        <section class = 'title'>
+            <h1>Preston Weather</h1>
+            <h4>"Napoleon, don't be jealous 'cause I've been chatting online with babes all day"</h4>
+        </section>
+    </header>
+
+    <nav class = 'clearfix'>
+        <button onclick="toggleMenu()">&#9776; Menu</button>
+        <ul id = 'primaryNav' class = ''>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">Preston</a></li>
+            <li><a href="#">Soda Springs</a></li>
+            <li><a href="#">Fish Haven</a></li> 
+            <li><a href="#">Storm Center</a></li>
+            <li><a href="#">Gallery</a></li>   
+        </ul>
+    </nav>
+
+
+    <main>
+        <div class = 'heroDiv'>
+            <h1 class = 'preston-title'>Preston, ID</h1>
+            <picture>
+                <source media = '(max-width: 300px)' srcset = 'images/hero-300.jpg'>
+                    <p class = 'hero-overlay-300'>Small</p>
+                <source media = '(max-width: 700px)' srcset = 'images/hero-700.jpg'>
+                    <p class = 'hero-overlay-700'>Medium</p>
+                <source media = '(max-width: 1000px)' srcset = 'images/hero-1000.jpg'>
+                    <p class = 'hero-overlay-1000'>Large</p>
+                <img class = 'hero' src = 'images/newhero.jpeg' alt = 'Hero Image' size = '50vw'>
+            </picture>
+            <section class = 'summery'>
+                <h2>Weather Summery</h2>
+                <p>Currently:  Sunny</p>
+                <p>High:  <span id = 'high'> 60</span>℉</p>
+                <p>Wind Chill: <span id = 'wChill'></span>℉</p>
+                <p>Low: 42℉</p>
+                <p>Humidity: 35%</p>
+                <p>Wind Speed:  <span id = 'wSpeed'>6</span>mph</p>
+            </section>
+        </div>
+        <section class = 'fiveday'>
+            <h3> Five Day Forcast</h3>
+            <div class = five-day-wrap'>
+                <section class = 'five-day-container'>
+                    <div class = 'day'>
+                        <p class = 'weekday'>Monday</p>
+                        <p class="temp">70℉</p>
+                    </div>
+                    <div class = 'day'>
+                        <p class = 'weekday'>Tuesday</p>
+                        <p class = 'temp'>64℉</p>
+                    </div>
+                    <div class = 'day'>
+                        <p class = 'weekday'>Wednesday</p>
+                        <p class = 'temp'>58℉</p>
+                    </div>
+                    <div class = 'day'>
+                        <p class = 'weekday'>Thursday</p>
+                        <p class = 'temp'>40℉</p>
+                    </div>
+                    <div class = 'day'>
+                        <p class = 'weekday'>Friday</p>
+                        <p class = 'temp'>47℉</p>
+                    </div>
+                </section>
+            </div>
+        </section>
+        <img class = 'pedro' src = 'images/pedro.jpg' alt = 'vote-for-pedro'>
+        <section class = 'article'>
+            <h1>This weeks article</h1>
+            <p>Dont for get that election day is coming up! VOTE for Pedro! 
+                Heck yes! I'd vote for you. <br> Napoleon Dynamite: I don't even have any skills.
+                Pedro: What do you mean?
+                Napoleon Dynamite: You know, like nunchuck skills, bo hunting skills, computer hacking skills. Girls only like guys who have great skills.<br>
+                I see your drinking 1%. Does that mean you think you're fat? Cause you're not. You could be drinking whole if you wanted to.
+                Dont for get that election day is coming up! VOTE for Pedro! 
+                Heck yes! I'd vote for you. <br> Napoleon Dynamite: I don't even have any skills.
+                Pedro: What do you mean?
+                Napoleon Dynamite: You know, like nunchuck skills, bo hunting skills, computer hacking skills. Girls only like guys who have great skills.<br>
+                I see your drinking 1%. Does that mean you think you're fat? Cause you're not. You could be drinking whole if you wanted to.
+            </p>
+        </section>
+    </main>
+
+  
+    <footer>
+        <section class = 'contact'>
+        <p>Contact us:</p>
+        <p>Phone: 208-682-4354</p>
+        <p>Email: prestonWeather.up</p>
+        </section>
+        <p class = 'legal'>&copy; <spam id = 'copyrightyear'></spam> | Daniel Uribe | Idaho | <a href = 'https://www.byui.edu/online'>BYUI Online learning</a></p>
+        <p class = 'hghlight'>Last Updated: <spam id= 'lastupdated'></spam></p>
+    </footer>
+</body>
+</html>
