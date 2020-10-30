@@ -1,0 +1,18 @@
+
+img {
+    display: block;
+    margin-bottom: 17px;
+    height: 300px;
+    width: 400px;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 5px;
+    box-shadow: 10px 10px 7px gray;
+}
+picture img[data-src] {
+    filter: blur(0.2em);
+}
+picture img {
+    filter: blur(0em);
+    transition: filter 3s;
+}
