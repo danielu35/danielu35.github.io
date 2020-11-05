@@ -1,5 +1,5 @@
 async function getDadJoke() {
-    const url = 'https://icanhazdadjoke.com';
+    const url = 'https://icanhazdadjoke.com/search?term=hipster';
     let h = new Headers({
         'Accept': 'application/json',
         'User-Agent': 'wdd-230 Test User Agent https://danielu35.github.io'
@@ -16,8 +16,19 @@ async function getDadJoke() {
 function newJoke() {
     const dad_id = document.getElementById('dad-joke')
     dad_id.innerHTML = "";
+    dad_id.classList.remove('small');
     const joke = getDadJoke()
     .then(function(j) {
-        dad_id.innerHTML = j['joke'];
+        dad_id.innerHTML = j['results'][1]['joke'];
+        if(j['results'][1]['joke'].length > 85) {
+            dad_id.classList.add('small');
+        }
     })
+    .catch(function(e){
+        dad_id.innerHTML = e;
+    });
 }
+
+window.addEventListener('load',(event) => {
+    newJoke();
+})

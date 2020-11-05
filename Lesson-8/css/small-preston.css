@@ -1,0 +1,232 @@
+/* Prevent adjustments of font size after orientation changes in IE on Windows Phone and in iOS.  */
+html {-webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%;}
+
+/*----------- apply a natural box layout model to all elements --------------*/
+* { -moz-box-sizing: border-box; -webkit-box-sizing: border-box; box-sizing: border-box; }
+
+#banner{
+    text-align: center;
+    background-color: #0668e9;
+    padding: 20px 20px;
+    font-family: Verdana, sans-serif;
+    color:#f1e750;
+    border-radius: 10px;
+  }
+  #banner:hover{
+    background-color: #D98C5F;
+    color:#516073;
+  }
+  .hidden{
+    display:none;
+  }
+body {
+    padding: 0;
+    margin: 0;
+}
+header {
+    background-color: skyblue;
+    border-radius: 10px 10px 0px 0px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: Verdana, sans-serif;
+}
+.logo {
+    height: 100px;
+    width: 100px;
+    border-radius: 50px;
+    margin: 1rem;
+    margin-right: 8rem;
+}
+nav {
+    font-family: Verdana, sans-serif;
+    border-radius: 0px 0px 10px 10px;
+}
+nav button {
+    border: none;
+    background-color: transparent;
+    font-size: 1.6rem;
+    margin: .2rem 2%;
+}
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+nav ul li a {
+    display: block;
+    padding: .8rem 2%;
+    text-decoration: none;
+    color: rgba(0,0,0,.8);
+    border-top: 1px solid rgba(0,0,0,.3);
+}
+nav ul li a:hover {
+    background-color: rgba(0,0,0,0.4);
+}
+nav ul.hide {
+    display: none;
+}
+footer {
+    background-color: skyblue;
+    border-radius: 10px;
+    text-align: center;
+    font-family: Verdana, sans-serif;
+}
+.contact {
+    text-align: left;
+    margin: 0;
+    padding: 0;
+}
+/*----- Clearfix: Force an Element not to collapse -----*/
+.clearfix:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+.hero {
+      width: 78%;
+      display: block;
+      margin-left: auto;
+      margin-right: auto;
+      border-radius: 5px;
+      font-family: Verdana, sans-serif;
+}
+.heroDiv {
+	margin: 10px auto;
+    position: relative;
+}
+.summery {
+    position: absolute;
+    top: 4rem;
+    left: 10rem;
+    background: radial-gradient(#eee, skyblue);
+    padding: 1rem;
+    opacity: 0.7;
+    border-radius: 10px;
+    font-family: Verdana, sans-serif;
+}
+.summery:hover {
+    opacity: 1.0;
+}
+h2, p {
+    margin: 0;
+    padding-left: .5rem;
+}
+.preston-title{
+    text-align: center;
+}
+.fiveday {
+    display: block;
+    margin: 10px auto;
+    padding: 15px;
+    box-shadow: 3px 3px 10px #88888879;
+    font-family: Verdana, sans-serif;
+  }
+  .five-day-wrapper {
+    background-color: #303132;
+    font-family: Verdana, sans-serif;
+  }
+  .five-day-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    text-align: center;
+    padding: 20px;
+    box-shadow: 3px 3px 10px #88888879;
+    background-color: #19c3da;
+    color: white;
+    column-gap: 1px;
+    font-family: Verdana, sans-serif;
+  }
+  .day {
+    border: 1px solid#1767d1;
+    padding: .7rem;
+    font-family: Verdana, sans-serif;
+  }
+  .article {
+    margin: 10px auto;
+    padding: 15px;
+    box-shadow: 3px 3px 10px #88888879;
+    width: 100%;
+    font-family: Verdana, sans-serif;
+  }
+  
+  .pedro {
+    width: 100%;
+  }
+  .hero-overlay-300 {
+    position: absolute;
+    /* Position the background text */
+    bottom:10px;
+    right:100px;
+    /* At the bottom. Use top:0 to append it to the top */
+    color: #f1f1f1;
+    /* Grey text */
+    padding-right: 20px;
+    /* Some padding */
+    max-width: 100%;
+    text-align: center;
+  }
+  .hero-overlay-700, .hero-overlay-1000 {
+    display: none;
+  }
+  /*------ FORM ---------*/
+  main {
+    padding: 0 10%;
+    min-height: 20rem;
+}
+form fieldset {
+  margin: 2rem 0;
+  border: 1px solid #445ba9;
+  border-radius: 10px;
+  padding: .5rem 2%;
+}
+form legend {
+  color: #445ba9;
+  margin: 0 1rem;
+  padding: 0 .5rem;
+}
+form label.top, form div {
+  display: block;
+  padding-top: 1rem;
+  color: #9c2c13;
+  font-size: .8rem;
+}
+form label.top input, form label.top select {
+  display: block;
+  font-size: 1rem;
+  border: solid 1px #999;
+  border-radius: 4px;
+  padding: .75rem;
+  color: #555;
+  width: 100%;
+  max-width: 20rem;
+  background-color: rgb(0,0,0,0.1);
+}
+form label.sbs {
+  display: block;
+  padding: .75rem 0;
+  color: #555;
+}
+.flexly {
+	display: flex;
+	align-items: center;
+}
+#ratingvalue {
+	margin: 0 15px;
+}
+form input.submitBtn {
+  border: none;
+  background-color: #9c2c13;
+  color: white;
+  border-radius: 1rem;
+  padding: .75rem 1.5rem;
+  margin: 0 0 2rem 2%;
+  width: 96%;
+  max-width: 20rem;
+}
+form label.top input:required {
+  border-left: red solid 6px;
+}
+form label.top input:required:valid {
+  border-left: green solid 6px;
+}

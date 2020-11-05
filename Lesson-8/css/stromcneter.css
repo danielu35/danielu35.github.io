@@ -1,0 +1,7 @@
+.flexly {
+	display: flex;
+	align-items: center;
+}
+#ratingvalue {
+	margin: 0 15px;
+}
