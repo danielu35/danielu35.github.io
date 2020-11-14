@@ -85,5 +85,9 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#87e0fd', end
   .hero-overlay-1000{
     display:hidden;
   }
+  .gal {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+  }
 
 } /*end medium */

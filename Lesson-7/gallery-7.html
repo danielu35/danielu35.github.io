@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1">    
+    <title>Preston Weather</title>
+
+    <!--This is where the links to css goes-->
+    <link rel = 'stylesheet' href = '../Lesson-6/css/normalize.css'>
+    <link rel = 'stylesheet' href = '../Lesson-6/css/small-preston.css'>
+    <link rel = 'stylesheet' href = '../Lesson-6/css/medium-preston.css'>
+    <link rel = 'stylesheet' href = '../Lesson-6/css/large-preston.css'>
+    <link rel = 'shortcut icon' href = '../Lesson-6/images/logo2.jpeg'>
+    <script src = '../Lesson-6/js/preston.js'></script>
+    <script src = 'js/windchill.js'></script>
+</head>
+<body>
+    <div id="banner" class="hidden">Preston Pancakes in the Park! 9:00 a.m. Saturday at the city pavilion. </div> 
+  <br>
+    <header>
+        <img class = 'logo' src = '../Lesson-6/images/logo2.jpeg' atl = 'Logo'>
+        <section class = 'title'>
+            <h1>Preston Weather</h1>
+            <h4>"Napoleon, don't be jealous 'cause I've been chatting online with babes all day"</h4>
+        </section>
+    </header>
+
+    <nav class = 'clearfix'>
+        <button onclick="toggleMenu()">&#9776; Menu</button>
+        <ul id = 'primaryNav' class = ''>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">Preston</a></li>
+            <li><a href="#">Soda Springs</a></li>
+            <li><a href="#">Fish Haven</a></li> 
+            <li><a href="#">Storm Center</a></li>
+            <li><a href="#">Gallery</a></li>   
+        </ul>
+    </nav>
+
+
+    <main class='gal'>
+        <h1 class = 'title'>Photo Gallery 	&#x1f91e;</h1>
+        <section>
+        <picture id = 'img1'>
+            <img class = 'img1' src = 'images/tetons4.jpeg' data-src = 'images/forest.jpeg' loading = 'lazy' atl = 'forest'>
+        </picture>
+    
+        <picture id = 'img2'>
+            <img class = 'img2' src = 'images/tetons4.jpeg' data-src = 'images/lake.jpeg' loading = 'lazy' alt = 'lake'>
+        </picture>
+    
+        <picture id = 'img3'>
+            <img class = 'img3' src = 'images/tetons4.jpeg' data-src = 'images/lightning.jpeg' loading = 'lazy' alt = 'lightning'>
+        </picture>
+    
+        <picture id = 'img4'>
+            <img class = 'img4' src = 'images/tetons4.jpeg' data-src = 'images/tetons1.jpeg' loading = 'lazy' alt = 'tetons1'>
+        </picture>
+    
+        <picture id = 'img5'>
+            <img class = 'img5' src = 'images/tetons4.jpeg' data-src = 'images/tetons2.jpeg' loading = 'lazy' alt = 'tetons2'>
+        </picture>
+    
+        <picture id = 'img6'>
+            <img class = 'img6' src = 'images/tetons4.jpeg' data-src = 'images/tetons3.jpeg' loading = 'lazy' alt = 'tetons3'>
+        </picture>
+
+        <picture id = 'img7'>
+            <img class = 'img7' src = 'images/tetons4.jpeg' data-src = 'images/tetons4.jpeg' loading = 'lazy' alt = 'tetons4'>
+        </picture>
+
+        <picture id = 'img8'>
+            <img class = 'img8' src = 'images/tetons4.jpeg' data-src = 'images/tetons5.jpeg' loading = 'lazy' alt = 'tetons5'>
+        </picture>
+
+        <picture id = 'img9'>
+            <img class = 'img9' src = 'images/tetons4.jpeg' data-src = 'images/yellowstone.jpeg' loading = 'lazy' alt = 'tetons3'>
+        </picture>
+        </section>
+    
+        <script src = 'js/lazyload.js'></script>
+
+    </main>
+
+  
+    <footer>
+        <section class = 'contact'>
+        <p>Contact us:</p>
+        <p>Phone: 208-682-4354</p>
+        <p>Email: prestonWeather.up</p>
+        </section>
+        <p class = 'legal'>&copy; <spam id = 'copyrightyear'></spam> | Daniel Uribe | Idaho | <a href = 'https://www.byui.edu/online'>BYUI Online learning</a></p>
+        <p class = 'hghlight'>Last Updated: <spam id= 'lastupdated'></spam></p>
+    </footer>
+</body>
+</html>

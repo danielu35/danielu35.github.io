@@ -1,5 +1,5 @@
 /* 64em is also 1028px when basefont is 16px */
-@media only screen and (min-width: 1000px) {
+@media only screen and (min-width: 1200px) {
     body {
         max-width: 1000px;
         margin: 0 auto;
@@ -26,5 +26,9 @@
       }
       .hero-overlay-700{
         display:none;
+      }
+      .gal {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
       }
 } /*end large */

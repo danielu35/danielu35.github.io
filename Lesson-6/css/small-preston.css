@@ -169,3 +169,22 @@ h2, p {
   .hero-overlay-700, .hero-overlay-1000 {
     display: none;
   }
+  .gal{
+    display: grid;
+  }
+section {
+  display: grid;
+}
+picture {
+  margin: 0 auto;
+  border: solid 2px;
+  border-color: red;
+  margin-bottom: 10px;;
+}
+img {
+  max-width: 600px;
+  width: 100%;
+}
+.title {
+  text-align: center;
+}
