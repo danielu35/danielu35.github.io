@@ -1,0 +1,269 @@
+/* Prevent adjustments of font size after orientation changes in IE on Windows Phone and in iOS.  */
+html {-webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%;}
+
+/*----------- apply a natural box layout model to all elements --------------*/
+* { -moz-box-sizing: border-box; -webkit-box-sizing: border-box; box-sizing: border-box; }
+
+#banner{
+    text-align: center;
+    background-color: #0668e9;
+    padding: 20px 20px;
+    font-family: Verdana, sans-serif;
+    color:#f1e750;
+    border-radius: 10px;
+  }
+  #banner:hover{
+    background-color: #D98C5F;
+    color:#516073;
+  }
+  .hidden{
+    display:none;
+  }
+body {
+    padding: 0;
+    margin: 0;
+}
+header {
+    background-color: skyblue;
+    border-radius: 10px 10px 0px 0px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: Verdana, sans-serif;
+}
+.logo {
+    height: 100px;
+    width: 100px;
+    border-radius: 50px;
+    margin: 1rem;
+    margin-right: 8rem;
+}
+nav {
+    font-family: Verdana, sans-serif;
+    border-radius: 0px 0px 10px 10px;
+}
+nav button {
+    border: none;
+    background-color: transparent;
+    font-size: 1.6rem;
+    margin: .2rem 2%;
+}
+nav ul.hide {
+    display: none;
+}
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+nav ul li a {
+    display: block;
+    padding: .8rem 2%;
+    text-decoration: none;
+    color: rgba(0,0,0,.8);
+    border-top: 1px solid rgba(0,0,0,.3);
+}
+nav ul li a:hover {
+    background-color: rgba(0,0,0,0.4);
+}
+.clearfix:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  h2, p {
+    margin: 0;
+    padding-left: .5rem;
+}
+/*------------- Body ------------------*/
+.cards {
+    display: grid;
+    color: white;
+}
+.cards img {
+    max-width: 100%;
+}
+h2 {
+    text-shadow: 2px 2px skyblue;
+}
+
+/*-------------- preston -----------------------*/
+.preston {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    background-color: skyblue;
+    box-shadow: 5px 5px 5px #516073;
+    margin: 40px 40px;
+    padding: 10px;
+    border-radius: 3px;
+}
+.pTile, .pMoto, .pPop, .pYear, .pRain {
+    grid-column: 1/2;
+    text-align: center;
+    text-shadow: 2px 2px 2px skyblue;
+}
+.pPop, .pYear, .pRain {
+    font-size: 14px;
+}
+.pImg {
+    justify-self: center;
+    grid-column: 2;
+    grid-row: 1 / 6;
+  }
+
+
+  .fish {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    background-color: skyblue;
+    box-shadow: 5px 5px 5px #516073;
+    margin: 40px 40px;
+    padding: 10px;
+    border-radius: 3px;
+}
+.fTile, .fMoto, .fPop, .fYear, .fRain {
+    grid-column: 2;
+    text-align: center;
+    text-shadow: 2px 2px 2px skyblue;
+}
+.fPop, .fYear, .fRain {
+    font-size: 14px;
+}
+.fImg {
+    justify-self: center;
+    grid-column: 1;
+    grid-row: 1 / 6;
+  }
+
+  .soda {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    background-color: skyblue;
+    box-shadow: 5px 5px 5px #516073;
+    margin: 40px 40px;
+    padding: 10px;
+    border-radius: 3px;
+}
+.sTile, .sMoto, .sPop, .sYear, .sRain {
+    grid-column: 1/2;
+    text-align: center;
+    text-shadow: 2px 2px 2px skyblue;
+}
+.sPop, .sYear, .sRain {
+    font-size: 14px;
+}
+.sImg {
+    justify-self: center;
+    grid-column: 2;
+    grid-row: 1 / 6;
+  }
+
+/*----------------- Footer ------------------*/
+footer {
+    background-color: skyblue;
+    border-radius: 10px;
+    text-align: center;
+    font-family: Verdana, sans-serif;
+}
+.contact {
+    text-align: left;
+    margin: 0;
+    padding: 0;
+}
+
+
+/* 35em is also 560px when basefont is 16px */
+@media only screen and (min-width: 708px) {
+    nav {
+        /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#87e0fd+0,53cbf1+40,05abe0+100;Blue+3D+%23+16 */
+background: #87e0fd; /* Old browsers */
+background: -moz-linear-gradient(top,  #87e0fd 0%, #53cbf1 40%, #05abe0 100%); /* FF3.6-15 */
+background: -webkit-linear-gradient(top,  #87e0fd 0%,#53cbf1 40%,#05abe0 100%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(to bottom,  #87e0fd 0%,#53cbf1 40%,#05abe0 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#87e0fd', endColorstr='#05abe0',GradientType=0 ); /* IE6-9 */
+
+    }
+    nav button{ 
+        display: none;
+    }
+    nav ul.hide {
+        display: block;
+    }
+    nav ul {
+        margin-left: 2%;
+    }
+    nav ul li {
+    display: inline-flex;
+    }
+    nav ul li a {
+        border: none;
+        border:0px solid rgba(0,0,0,.3);
+        padding: .8rem 1rem;
+    }
+   ul {
+        text-align: center;
+    }
+    .cards {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        color: white;
+    }
+    .cards img {
+        max-width: 100%;
+    }
+    h2 {
+        text-shadow: 2px 2px skyblue;
+    }
+
+    /*--------------- Medium Body ---------------------*/
+    .preston {
+        grid-template-columns: 1fr;
+    }
+    .preston:hover {
+        background-color: white;
+        color: skyblue;
+        border: 2px solid skyblue;
+    }
+    .pImg {
+        grid-row: 2/3;
+        grid-column: 1;
+        border-radius: 4px;
+    }
+    .pTile, .pMoto, .pYear, .pPop, .pRain {
+        margin: 20px;
+    }
+
+    .fish {
+        grid-template-columns: 1fr;
+    }
+    .fish:hover {
+        background-color: white;
+        color: skyblue;
+        border: 2px solid skyblue;
+    }
+    .fImg {
+        grid-column: 2;
+        grid-row: 2/3;
+        border-radius: 4px;
+    }
+    .fTile, .fMoto, .fYear, .fPop, .fRain {
+        margin: 20px;
+    }
+
+    .soda {
+        grid-template-columns: 1fr;
+    }
+    .soda:hover {
+        background-color: white;
+        color: skyblue;
+        border: 2px solid skyblue;
+    }
+    .sImg {
+        grid-column: 1;
+        grid-row: 2/3;
+    }
+    .sTile, .sMoto, .sYear, .sPop, .sRain {
+        margin: 20px;
+    }
+    
+}

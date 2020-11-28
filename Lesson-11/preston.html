@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1">    
+    <title>Preston Weather</title>
+
+    <!--This is where the links to css goes-->
+    <link rel = 'stylesheet' href = 'css/normalize.css'>
+    <link rel = 'stylesheet' href = 'css/small-preston.css'>
+    <link rel = 'stylesheet' href = 'css/medium-preston.css'>
+    <link rel = 'stylesheet' href = 'css/large-preston.css'>
+    <link rel = 'shortcut icon' href = 'images/logo2.jpeg'>
+    <script src = 'js/preston.js'></script>
+</head>
+<body>
+    <div id="banner" class="hidden">Preston Pancakes in the Park! 9:00 a.m. Saturday at the city pavilion. </div> 
+  <br>
+    <header>
+        <img class = 'logo' src = 'images/logo2.jpeg' atl = 'Logo'>
+        <section class = 'title'>
+            <h1>Preston Weather</h1>
+            <h4>"Home of Napoleon Dynamite"</h4>
+        </section>
+    </header>
+
+    <nav class = 'clearfix'>
+        <button onclick="toggleMenu()">&#9776; Menu</button>
+        <ul id = 'primaryNav' class = ''>
+            <li><a href="home.html">Home</a></li>
+            <li><a href="preston.html">Preston</a></li>
+            <li><a href="sodasprings.html">Soda Springs</a></li>
+            <li><a href="fish.html">Fish Haven</a></li> 
+            <li><a href="stormcenter.html">Storm Center</a></li>
+            <li><a href="#">Gallery</a></li>    
+        </ul>
+    </nav>
+
+
+    <main>
+        <div class = 'heroDiv'>
+            <h1 class = 'preston-title'>Preston, ID</h1>
+            <img class = 'hero' src = 'images/heroimg.png' alt = 'Hero Image'>
+            <section class = 'summery'>
+                <h3>Weather Summery</h3>
+                <p>Currently:  <span id = 'current'></span></p>
+                <p>High: <span id = 'high'></span>℉</p>
+                <p>Humidity: <span id = 'hum'></span>%</p>
+                <p>Wind Speed: <span id = 'speed'></span> MPH</p>
+                <p>Wind Chill: <span id ='chill'></span>℉</p>
+            </section>
+        </div>
+        <section class = 'fiveday'>
+            <h3> Five Day Forcast</h3>
+            <div class = five-day-wrap'>
+                <section class = 'five-day-container'>
+                    <div class = 'day'>
+                        <p class = 'weekday'>Monday</p>
+                        <p class="temp">70℉</p>
+                    </div>
+                    <div class = 'day'>
+                        <p class = 'weekday'>Tuesday</p>
+                        <p class = 'temp'>64℉</p>
+                    </div>
+                    <div class = 'day'>
+                        <p class = 'weekday'>Wednesday</p>
+                        <p class = 'temp'>58℉</p>
+                    </div>
+                    <div class = 'day'>
+                        <p class = 'weekday'>Thursday</p>
+                        <p class = 'temp'>40℉</p>
+                    </div>
+                    <div class = 'day'>
+                        <p class = 'weekday'>Friday</p>
+                        <p class = 'temp'>47℉</p>
+                    </div>
+                </section>
+            </div>
+        </section>
+        <img class = 'pedro' src = 'images/pedro.jpg' alt = 'vote-for-pedro'>
+        <section class = 'article'>
+            <h1>This weeks article</h1>
+            <p>Dont for get that election day is coming up! VOTE for Pedro! 
+                Heck yes! I'd vote for you. <br> Napoleon Dynamite: I don't even have any skills.
+                Pedro: What do you mean?
+                Napoleon Dynamite: You know, like nunchuck skills, bo hunting skills, computer hacking skills. Girls only like guys who have great skills.<br>
+                I see your drinking 1%. Does that mean you think you're fat? Cause you're not. You could be drinking whole if you wanted to.
+                Dont for get that election day is coming up! VOTE for Pedro! 
+                Heck yes! I'd vote for you. <br> Napoleon Dynamite: I don't even have any skills.
+                Pedro: What do you mean?
+                Napoleon Dynamite: You know, like nunchuck skills, bo hunting skills, computer hacking skills. Girls only like guys who have great skills.<br>
+                I see your drinking 1%. Does that mean you think you're fat? Cause you're not. You could be drinking whole if you wanted to.
+            </p>
+        </section>
+        <div class = 'event'>
+            <h1>Upcoming Events</h1>
+            <div id = 'eventList'></div>
+        </div>
+
+        <div class = "contact">
+            <h3>Contact Information</h3>
+            <img src = "images/prestonmap.png" alt = "map" />
+            <p style="font-weight: bold;">The Nearby Weather</p>
+            <p>
+                &#9742; Phone Number: (555) 867-5309
+            </p>
+            <p>
+                &#9951; Address: Rexburg, Idaho
+            </p>
+            <p>
+                &commat; Email: admin@tnbw.com
+            </p>
+        </div>
+    </main>
+
+  
+    <footer>
+        <p class = 'legal'>&copy; <spam id = 'copyrightyear'></spam> | Daniel Uribe | Idaho | <a href = 'https://www.byui.edu/online'>BYUI Online learning</a></p>
+        <p class = 'hghlight'>Last Updated: <spam id= 'lastupdated'></spam></p>
+    </footer>
+</body>
+</html>

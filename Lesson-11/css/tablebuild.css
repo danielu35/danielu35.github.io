@@ -1,0 +1,17 @@
+table {
+    box-shadow: 10px 10px 10px gray;
+    letter-spacing: 1px;
+    background-color:silver;
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Ubuntu', sans-serif;
+}
+td {
+    text-align: center;
+}
+tfoot {
+    font-size: small;
+    text-align: center;
+}
+.bf {
+    font-style: italic;
+}
