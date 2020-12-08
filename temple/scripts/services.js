@@ -1,3 +1,7 @@
+function toggleMenu() {
+    document.getElementById('primaryNav').classList.toggle('hide');
+}
+
 fetch('scripts/temples.json')
 .then( result => {
         return result.json();
