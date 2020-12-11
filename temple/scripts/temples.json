@@ -5,35 +5,53 @@
         "lastname": "Paraguay",
         "birthdate": "23 December 1995",
         "birthplace": "Asuncion",
-        "imageurl": "https://cdn.glitch.com/e0a97fc2-e92e-48b4-8e7d-2fc20ed04a15%2Fparaguay.jpg?v=1586475152825"
+        "imageurl": "https://cdn.glitch.com/e0a97fc2-e92e-48b4-8e7d-2fc20ed04a15%2Fparaguay.jpg?v=1586475152825",
+        "address": "Avda Brasilia Esquina Avda España, Asunción, Paraguay",
+        "link": "https://www.churchofjesuschrist.org/temples/details/asuncion-paraguay-temple?lang=eng"
       },
       {
         "name": "Temple of Atlanta,         ",
         "lastname": "Georgia",
         "birthdate": "01 June 1901",
         "birthplace": "Georgia",
-        "imageurl": "https://cdn.glitch.com/e0a97fc2-e92e-48b4-8e7d-2fc20ed04a15%2Fatlanta.jpg?v=1586474857662"
+        "imageurl": "https://cdn.glitch.com/e0a97fc2-e92e-48b4-8e7d-2fc20ed04a15%2Fatlanta.jpg?v=1586474857662",
+        "address": "6450 Barfield Rd NE, Sandy Springs GA 30328-4283, United States",
+        "tel": "(1) 770-393-3698",
+        "link": "https://www.churchofjesuschrist.org/temples/details/atlanta-georgia-temple?lang=eng",
+        "services": "No clothing rental available No cafeteria available No patron housing available Distribution center nearby"
       },
       {
         "name": "Temple of Apia,",
         "lastname": "Samoa",
         "birthdate": "01 November 1970",
         "birthplace": "Samoa",
-        "imageurl": "https://cdn.glitch.com/e0a97fc2-e92e-48b4-8e7d-2fc20ed04a15%2Fsamoa.jpg?v=1586475777861"
+        "imageurl": "https://cdn.glitch.com/e0a97fc2-e92e-48b4-8e7d-2fc20ed04a15%2Fsamoa.jpg?v=1586475777861",
+        "address": "Vaitele Street Pesega Apia, Samoa",
+        "tel": "(685) 64-230",
+        "link": "https://www.churchofjesuschrist.org/temples/details/apia-samoa-temple?lang=eng",
+        "services": "No clothing rental available No cafeteria available No patron housing available Distribution center nearby"
       },
       {
         "name": "Temple of Arequipa",
         "lastname": "Peru",
         "birthdate": "01 March 1977", 
         "birthplace": "Peru", 
-        "imageurl": "https://cdn.glitch.com/e0a97fc2-e92e-48b4-8e7d-2fc20ed04a15%2Fperu.jpg?v=1586476817104"
+        "imageurl": "https://cdn.glitch.com/e0a97fc2-e92e-48b4-8e7d-2fc20ed04a15%2Fperu.jpg?v=1586476817104",
+        "address": "Calle Cusco 380 Carmen Alto Distrito De Cayma Arequipa, Arequipa, Peru",
+        "tel": "(51) 54-640-300",
+        "link": "https://www.churchofjesuschrist.org/temples/details/arequipa-peru-temple?lang=eng",
+        "services": "No clothing rental available  No cafeteria available  No patron housing available  Distribution center nearby"
       },
       {
         "name": "Temple of Tijuana,",
         "lastname": "Mexico",
         "birthdate": "13 December 2015",
         "birthplace": "Tijuana",
-        "imageurl": "https://content.churchofjesuschrist.org/templesldsorg/bc/Temples/photo-galleries/tijuana-mexico/400x250/tijuana-mexico-temple-exterior-1603896-wallpaper.jpg"
+        "imageurl": "https://content.churchofjesuschrist.org/templesldsorg/bc/Temples/photo-galleries/tijuana-mexico/400x250/tijuana-mexico-temple-exterior-1603896-wallpaper.jpg",
+        "address": "Paseo Del Rio 6832 Esquina Campestre Oriente  Col 3 RA Etapa Rio Tijuana, 22226 Tijuana, Baja California, Mexico",
+        "tel": "(52) 664-969-2690",
+        "link": "https://www.churchofjesuschrist.org/temples/details/tijuana-mexico-temple?lang=eng",
+        "services": "No clothing rental available  No cafeteria available  No patron housing available  Distribution center nearby"
       }
     
     ]
